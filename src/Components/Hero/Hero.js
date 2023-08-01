@@ -73,7 +73,6 @@ export default function Hero() {
       scrollTo(id);
     }
 
-    history.push(to);
     setShow(false);
   };
   return (
