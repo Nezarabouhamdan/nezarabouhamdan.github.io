@@ -135,6 +135,7 @@ export const NavItem = styled.li`
 export const NavLinks = styled.h3`
   color: #112e6a;
   display: flex;
+  font-family: "Bebas Neue";
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -181,6 +182,7 @@ export const NavBtnLink = styled(Link)`
 export const Text = styled(motion.h3)`
   font-size: 35px;
   color: #112e6a;
+  font-family: "Bebas Neue";
   @media screen and (max-width: 968px) {
     font-size: 28px;
   }
