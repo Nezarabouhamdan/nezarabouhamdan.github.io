@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.d6b5ce5a.css",
-    "main.js": "/portofolio/static/js/main.f2ed2281.js",
+    "main.css": "/portofolio/static/css/main.5f1ff554.css",
+    "main.js": "/portofolio/static/js/main.e697143d.js",
+    "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/favicon.png": "/portofolio/static/media/favicon.98da688d56f832743af2.png",
     "static/media/Mulish-VariableFont_wght.ttf": "/portofolio/static/media/Mulish-VariableFont_wght.d8a9a18cece4ed88ac76.ttf",
     "static/media/all shapes@2x (4).png": "/portofolio/static/media/all shapes@2x (4).17ff791b32cc58d9f1e8.png",
@@ -18,11 +19,12 @@
     "static/media/aty.png": "/portofolio/static/media/aty.f39fbb7a2dd4160d7f16.png",
     "static/media/nft.png": "/portofolio/static/media/nft.546dd19c6d59a31e85cd.png",
     "index.html": "/portofolio/index.html",
-    "main.d6b5ce5a.css.map": "/portofolio/static/css/main.d6b5ce5a.css.map",
-    "main.f2ed2281.js.map": "/portofolio/static/js/main.f2ed2281.js.map"
+    "main.5f1ff554.css.map": "/portofolio/static/css/main.5f1ff554.css.map",
+    "main.e697143d.js.map": "/portofolio/static/js/main.e697143d.js.map",
+    "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b5ce5a.css",
-    "static/js/main.f2ed2281.js"
+    "static/css/main.5f1ff554.css",
+    "static/js/main.e697143d.js"
   ]
 }
