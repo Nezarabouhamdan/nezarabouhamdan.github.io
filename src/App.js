@@ -7,7 +7,17 @@ import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home";
 import "./fonts/style.css";
 function App() {
-  return <Home />;
+  return (
+    <BrowserRouter>
+      {" "}
+      <Globalstyle />
+      <Navbar />
+      <switch>
+        <Route exact path={"/"} component={Home} />
+      </switch>
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
 export default App;
