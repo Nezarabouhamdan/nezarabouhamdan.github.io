@@ -72,7 +72,7 @@ const Navbar = () => {
               transition={{ delay: 0, duration: 0.1 }}
               animate={animation}
             >
-              Portofolio
+              Portofoliosss
             </Text>
           </NavLogo>
           <MobileIcon onClick={handleClick}>
