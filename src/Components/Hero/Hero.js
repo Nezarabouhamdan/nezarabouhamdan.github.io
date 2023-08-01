@@ -29,7 +29,8 @@ import { useInView } from "react-intersection-observer";
 import { useHistory, useLocation } from "react-router-dom";
 
 export default function Hero() {
-  const pdf = "http://localhost:3000/NezarSaabAbouhamdanResume (1).pdf";
+  const pdf =
+    "https://nezarabouhamdan.github.io/portofolio/NezarSaabAbouhamdanResume (1).pdf";
   const Downloadpdf = (url) => {
     const filename = url.split("/").pop();
     const aTag = document.createElement("a");
