@@ -53,9 +53,6 @@ export default function Hero() {
   }, [inView, animation]);
   const [show, setShow] = useState(false);
 
-  let history = useHistory();
-  let location = useLocation();
-
   const handleClick = () => {
     setShow(!show);
   };
@@ -69,7 +66,7 @@ export default function Hero() {
   };
 
   const closeMobileMenu = (to, id) => {
-    if (id && location.pathname === "/") {
+    if (id) {
       scrollTo(id);
     }
 

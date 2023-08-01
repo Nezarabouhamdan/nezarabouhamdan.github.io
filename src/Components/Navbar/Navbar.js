@@ -40,8 +40,6 @@ const Navbar = () => {
       });
     }
   }, [inView, animation]);
-  let history = useHistory();
-  let location = useLocation();
 
   const handleClick = () => {
     setShow(!show);

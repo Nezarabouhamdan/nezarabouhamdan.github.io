@@ -8,9 +8,15 @@ import Home from "./Pages/Home";
 import "./fonts/style.css";
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <BrowserRouter>
+      {" "}
+      <Globalstyle />
+      <Navbar />
+      <switch>
+        <Route exact path={"/portofolio"} component={Home} />
+      </switch>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
