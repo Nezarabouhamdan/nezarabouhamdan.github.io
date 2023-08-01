@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.5f1ff554.css",
+    "main.js": "/portofolio/static/js/main.8a4959f6.js",
+    "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
+    "static/media/favicon.png": "/portofolio/static/media/favicon.98da688d56f832743af2.png",
+    "static/media/Mulish-VariableFont_wght.ttf": "/portofolio/static/media/Mulish-VariableFont_wght.d8a9a18cece4ed88ac76.ttf",
+    "static/media/all shapes@2x (4).png": "/portofolio/static/media/all shapes@2x (4).17ff791b32cc58d9f1e8.png",
+    "static/media/elite.png": "/portofolio/static/media/elite.ce13690fb6d61f10186a.png",
+    "static/media/Group 1 (1).png": "/portofolio/static/media/Group 1 (1).7ab312055c1ec0f03df0.png",
+    "static/media/Done.png": "/portofolio/static/media/Done.158ab1b05b62571f9e30.png",
+    "static/media/Circles.png": "/portofolio/static/media/Circles.36c9f23f46c7cdd405cc.png",
+    "static/media/BebasNeue-Regular.ttf": "/portofolio/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/Ellipse 47 (1).png": "/portofolio/static/media/Ellipse 47 (1).7dd904d5e268e1c74cfb.png",
+    "static/media/Polygon 4.png": "/portofolio/static/media/Polygon 4.bfa104fbb0fcee085e41.png",
+    "static/media/moh.79747f33.png": "/portofolio/static/media/moh.79747f33.e2fd3a2659d3c86da29e.png",
+    "static/media/Rectangle 1 (1).png": "/portofolio/static/media/Rectangle 1 (1).f1459d54290cadce74f2.png",
+    "static/media/logo.png": "/portofolio/static/media/logo.bb99683fb6dff2f2903b.png",
+    "static/media/aty.png": "/portofolio/static/media/aty.f39fbb7a2dd4160d7f16.png",
+    "static/media/nft.png": "/portofolio/static/media/nft.546dd19c6d59a31e85cd.png",
+    "index.html": "/portofolio/index.html",
+    "main.5f1ff554.css.map": "/portofolio/static/css/main.5f1ff554.css.map",
+    "main.8a4959f6.js.map": "/portofolio/static/js/main.8a4959f6.js.map",
+    "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f1ff554.css",
+    "static/js/main.8a4959f6.js"
+  ]
+}
