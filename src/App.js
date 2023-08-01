@@ -13,7 +13,7 @@ function App() {
       <Globalstyle />
       <Navbar />
       <switch>
-        <Route exact path={"/portofolio"} component={Home} />
+        <Route exact path={"/"} component={Home} />
       </switch>
       <Footer />
     </BrowserRouter>
