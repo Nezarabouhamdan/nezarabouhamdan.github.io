@@ -55,12 +55,11 @@ const Navbar = () => {
     });
   };
 
-  const closeMobileMenu = (to, id) => {
+  const closeMobileMenu = (id) => {
     if (id && location.pathname === "/") {
       scrollTo(id);
     }
 
-    history.push(to);
     setShow(false);
   };
   return (
@@ -87,7 +86,7 @@ const Navbar = () => {
           >
             {data.map((el, index) => (
               <NavItem key={index}>
-                <NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
+                <NavLinks onClick={() => closeMobileMenu(el.id)}>
                   {el.text}
                 </NavLinks>
               </NavItem>
