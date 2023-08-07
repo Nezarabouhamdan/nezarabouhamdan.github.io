@@ -10,12 +10,9 @@ import { Globalstyle } from "../Globalstyles";
 export default function Home() {
   return (
     <div>
-      <Globalstyle />
-      <Navbar />
       <Hero />
       <Knowledge />
       <Projects />
-      <Footer />
     </div>
   );
 }

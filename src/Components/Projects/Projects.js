@@ -213,7 +213,9 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open("https://www.instagram.com/p/Cpx1lUcDO3X/");
+                window.open(
+                  "https://www.instagram.com/reel/Cpx1lUcDO3X/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                );
               }}
               src={ios}
             ></Projectslogo>{" "}
@@ -258,7 +260,9 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open(" https://elitegrafic.com/");
+                window.open(
+                  " https://nezarabouhamdan.github.io/Natgeo-landing-page/"
+                );
               }}
               src={nat}
             ></Projectslogo>{" "}
