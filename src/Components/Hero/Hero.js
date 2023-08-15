@@ -29,7 +29,8 @@ import { useInView } from "react-intersection-observer";
 import { useHistory, useLocation } from "react-router-dom";
 
 export default function Hero() {
-  const pdf = "https://nezarabouhamdan.github.io/portofolio/Nezarcv.pdf";
+  const pdf =
+    "https://nezarabouhamdan.github.io/portofolio/Software_Developer.pdf";
   const Downloadpdf = (url) => {
     const filename = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -140,8 +141,8 @@ export default function Hero() {
           animate={animation}
         >
           {" "}
-          Over 3+ years of IT experience which includes 3+ years of experience
-          as a React JS Developer and 2 years as a Flutter Developer
+          I have significant experience in the IT industry, including several
+          years of hands-on work as a ReactJS Developer and Flutter Developer.
           <br></br>.{" "}
         </Head3>
         <br></br>
