@@ -123,7 +123,7 @@ function Projects() {
               <Item>
                 {isVisible ? (
                   <NumberCounter
-                    end={3}
+                    end={5}
                     delay={1.5}
                     className="increment"
                     // preFix="Up revenue:"

@@ -21,7 +21,7 @@ import js from "../../assets/icons8-js-64.png";
 import git from "../../assets/icons8-git-64.png";
 import react from "../../assets/icons8-react-native-64.png";
 import flutter from "../../assets/icons8-flutter-64.png";
-import python from "../../assets/icons8-python-64.png";
+import Node from "../../assets/icons8-nodejs-64.png";
 import c1 from "../../assets/icons8-c-64.png";
 import c2 from "../../assets/icons8-c-sharp-logo-64.png";
 import back from "../../assets/Circles.png";
@@ -77,7 +77,7 @@ function Knowledge() {
         <Twoelement>
           <Block>
             {" "}
-            <Logo src={python}></Logo>python
+            <Logo src={Node}></Logo>Node js
           </Block>
           <Block>
             {" "}
