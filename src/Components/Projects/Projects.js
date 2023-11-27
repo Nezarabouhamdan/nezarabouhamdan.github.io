@@ -13,11 +13,11 @@ import {
 } from "./Projectsstyles";
 import ipsum from "../../assets/logo.png";
 import bendita from "../../assets/moh.79747f33.png";
-import meta from "../../assets/favicon.png";
-import nat from "../../assets/favicon (2).png";
-import ios from "../../assets/ios.png";
+import meta from "../../assets/rent.jpg";
+import nat from "../../assets/ALHARAM.png";
+import ios from "../../assets/alhamwi.jpg";
 import aty from "../../assets/aty.png";
-import nft from "../../assets/nft.png";
+import nft from "../../assets/almajal.svg";
 import elite from "../../assets/elite.png";
 import back from "../../assets/Group 1 (1).png";
 import VisibilitySensor from "react-visibility-sensor";
@@ -136,7 +136,7 @@ function Projects() {
           </VisibilitySensor>
         </Box>
       </Counterrow>
-      My Projects
+      My Recent Projects
       <Row2 id="Projects" height="50vh">
         <Sectionimg src={back} />{" "}
         <CustomDiv>
@@ -150,11 +150,11 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open("https://nezarabouhamdan.github.io/metaverse");
+                window.open("https://renterz.com/");
               }}
               src={meta}
             ></Projectslogo>{" "}
-            METAVERSE LANDING PAGE{" "}
+            Renterz Real Estate{" "}
           </Column>
           <Column
             initial={initial}
@@ -180,11 +180,11 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open("https://www.instagram.com/p/CpVBW_njzLf/");
+                window.open("https://en.majalla.com/");
               }}
               src={nft}
             ></Projectslogo>{" "}
-            NFT APP{" "}
+            Al Majalla{" "}
           </Column>
           <Column
             initial={initial}
@@ -213,13 +213,11 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open(
-                  "https://www.instagram.com/reel/Cpx1lUcDO3X/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
-                );
+                window.open("https://hamwi-int.com/");
               }}
               src={ios}
             ></Projectslogo>{" "}
-            APPLE SOTRE{" "}
+            {"AL HAMWI Co.Ltd "}
           </Column>{" "}
           <Column
             initial={initial}
@@ -260,13 +258,11 @@ function Projects() {
             <Projectslogo
               onClick={(event) => {
                 event.preventDefault();
-                window.open(
-                  " https://nezarabouhamdan.github.io/Natgeo-landing-page/"
-                );
+                window.open(" https://haram-transfer.com/");
               }}
               src={nat}
             ></Projectslogo>{" "}
-            NAT-GEO LANDING PAGE{" "}
+            Al Haram Bank Transfers{" "}
           </Column>
         </CustomDiv>
       </Row2>
