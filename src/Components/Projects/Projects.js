@@ -54,7 +54,7 @@ function Projects() {
               <Item>
                 {isVisible ? (
                   <NumberCounter
-                    end={50}
+                    end={10}
                     delay={2}
                     className="increment"
                     // preFix="Up revenue:"
@@ -77,7 +77,7 @@ function Projects() {
               <Item>
                 {isVisible ? (
                   <NumberCounter
-                    end={35}
+                    end={16}
                     delay={1.5}
                     className="increment"
                     // preFix="Up revenue:"
@@ -100,7 +100,7 @@ function Projects() {
               <Item>
                 {isVisible ? (
                   <NumberCounter
-                    end={10}
+                    end={5}
                     delay={1.5}
                     className="increment"
                     // preFix="Up revenue:"
@@ -123,7 +123,7 @@ function Projects() {
               <Item>
                 {isVisible ? (
                   <NumberCounter
-                    end={5}
+                    end={2}
                     delay={1.5}
                     className="increment"
                     // preFix="Up revenue:"
@@ -141,21 +141,6 @@ function Projects() {
         <Sectionimg src={back} />{" "}
         <CustomDiv>
           {" "}
-          <Column
-            initial={initial}
-            transition={{ delay: 0.3, duration: 0.5 }}
-            animate={animation}
-          >
-            {" "}
-            <Projectslogo
-              onClick={(event) => {
-                event.preventDefault();
-                window.open("https://renterz.com/");
-              }}
-              src={meta}
-            ></Projectslogo>{" "}
-            Renterz Real Estate{" "}
-          </Column>
           <Column
             initial={initial}
             transition={{ delay: 0.5, duration: 0.5 }}
@@ -248,21 +233,6 @@ function Projects() {
               src={aty}
             ></Projectslogo>{" "}
             ATYPICAL{" "}
-          </Column>
-          <Column
-            initial={initial}
-            transition={{ delay: 1.7, duration: 0.5 }}
-            animate={animation}
-          >
-            {" "}
-            <Projectslogo
-              onClick={(event) => {
-                event.preventDefault();
-                window.open(" https://haram-transfer.com/");
-              }}
-              src={nat}
-            ></Projectslogo>{" "}
-            Al Haram Bank Transfers{" "}
           </Column>
         </CustomDiv>
       </Row2>

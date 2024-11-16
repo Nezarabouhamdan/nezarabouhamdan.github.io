@@ -67,7 +67,7 @@ export const Shape = styled(motion.img)`
   postion: relative;
   animation: ${floating} 2.5s infinite;
 
-  margin-top: ${({ back }) => (back ? "260px" : "0px")};
+  margin-top: ${({ back }) => (back ? "180px" : "0px")};
   margin-left: ${({ left }) => (left ? "-100px" : "-60px")};
 
   width: 4.5%;
